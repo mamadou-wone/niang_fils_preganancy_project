@@ -10,15 +10,38 @@ $router = new AltoRouter();
 $router->map('GET','/','home');
 $router->map('GET','/contact','contact');
 $router->map('GET','/test','test');
+$router->map('GET','/Doctors','Doctors');
+$router->map('GET','/about','about');
+$router->map('GET','/Department','Department');
+$router->map('GET','/elements','elements');
+$router->map('GET','/blog','blog');
+$router->map('GET','/single-blog','single-blog');
 $match = $router->match();
-
-
 if($match !== null){
     if(is_callable($match['target'])){
         call_user_func_array($match['target'], $match['params']);
     }elseif ($match['target'] === 'contact') {
         require "../vue/contact/{$match['target']}.php";
-    }elseif ($match['target'] === null) {
+    }
+    elseif ($match['target'] === 'Doctors') {
+        require "{$match['target']}.php";
+    }
+    elseif ($match['target'] === 'about') {
+        require "{$match['target']}.php";
+    }
+    elseif ($match['target'] === 'Department') {
+        require "{$match['target']}.php";
+    }
+    elseif ($match['target'] === 'elements') {
+        require "{$match['target']}.php";
+    }
+    elseif ($match['target'] === 'single-blog') {
+        require "{$match['target']}.php";
+    }
+    elseif ($match['target'] === 'blog') {
+        require "{$match['target']}.php";
+    }
+    elseif ($match['target'] === null) {
         echo '404';
     }
     else{
