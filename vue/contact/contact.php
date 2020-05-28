@@ -1,5 +1,5 @@
- <?php  require "../elements/header.php" ;?>
- 
+ <?php require "../elements/header.php";?>
+
 
     <!-- bradcam_area_start  -->
     <div class="bradcam_area breadcam_bg_2 bradcam_overlay">
@@ -57,10 +57,10 @@
                     </script>
                     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;callback=initMap">
                     </script>
-    
+
                 </div>
-    
-    
+
+
                 <div class="row">
                     <div class="col-12">
                         <h2 class="contact-title">Get in Touch</h2>
@@ -121,7 +121,7 @@
             </div>
         </section>
     <!-- ================ contact section end ================= -->
-    
+
 <!-- footer start -->
 <footer class="footer">
     <div class="footer_top">
@@ -135,7 +135,7 @@
                             </a>
                         </div>
                         <p>
-                                Firmament morning sixth subdue darkness 
+                                Firmament morning sixth subdue darkness
                                 creeping gathered divide.
                         </p>
                         <div class="socail_links">
