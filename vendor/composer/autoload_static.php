@@ -17,6 +17,14 @@ class ComposerStaticInitb57b500bfbaffd6fd3746ad22d241080
             'Whoops\\' => 7,
         ),
         'S' => 
+<<<<<<< HEAD
+=======
+        array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Symfony\\Component\\VarDumper\\' => 28,
+        ),
+        'P' => 
+>>>>>>> c9e306d0fd890deccf9583cdfe98debd5995d238
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\VarDumper\\' => 28,
@@ -33,6 +41,17 @@ class ComposerStaticInitb57b500bfbaffd6fd3746ad22d241080
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
         ),
         'Symfony\\Polyfill\\Mbstring\\' => 
+<<<<<<< HEAD
+=======
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
+        'Symfony\\Component\\VarDumper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/var-dumper',
+        ),
+        'Psr\\Log\\' => 
+>>>>>>> c9e306d0fd890deccf9583cdfe98debd5995d238
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
